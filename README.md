@@ -1,7 +1,25 @@
-# rotamanagement
-Rota Management Software
+# **DreamShift** - A comprehensive shift management tool
+### Streamline your shifts
+  
+  
+DreamShift offers an easy-to-use comprehensive solution to shift managment for both managers and employees.
 
+- For Team Managers  
+    Manage your team and contact information, define claim limits and post new shift with easy approval, all within one app.
+    
+- For Team Employees  
+    Find available shifts, sign up for eligible shifts and keep track of upcoming shifts.
 
-Developed a full-stack rota management application using the MERN stack (MongoDB, Express.js, React.js, Node.js) to streamline employee scheduling and shift planning.
-Designed and implemented a user-friendly interface with React.js, allowing managers to easily create, modify, and assign shifts, while providing employees with a clear view of their schedules.
-Integrated MongoDB for efficient data storage and retrieval, ensuring scalable and reliable management of employee records, shift details, and schedule history.
+### Stack
+
+  * MERN (MongoDB (with Mongoose ORM), Express.js, React.js and Node.js)
+  
+### Additional Technologies
+
+   * [Passport.js](http://www.passportjs.org) - for authentication and password encryption
+   
+   * [Axios](https://www.npmjs.com/package/axios) - HTTP client
+        
+ 
+Deployed on Heroku:  
+https://thawing-tundra-48363.herokuapp.com
