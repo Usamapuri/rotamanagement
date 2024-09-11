@@ -1,0 +1,64 @@
+user : {
+    1. findall => department_id,
+    2. delete,
+    3. create
+    4. findbyId => user_id
+}
+shift : {
+    1. findall => department_id,
+    2. create,
+    3. delete,
+    4. modify(update the capacity)
+}
+
+
+font register 
+
+data={
+    firstname : ,
+    lastname : ,
+    location : ,
+    username : ,
+    isManager :   ,
+    team_id : ,
+    password : ,
+}
+
+
+https://www.geeksforgeeks.org/nodejs-authentication-using-passportjs-and-passport-local-mongoose/
+
+
+login page :
+
+data ={
+    username : ,
+    password : 
+}
+
+managershift page : 
+get methord : /api/shift/manager
+    data = {
+        teamid : ,
+        userid : ,
+        isManager : ,
+    }
+
+post methord : /api/shift/manager/addshift
+    data = {
+        name: ,
+        description: ,
+        capacity: ,
+        location: ,
+        date: ,
+        start: ,
+        end: ,
+        team_id: 
+    }
+
+
+http://localhost:3001/api/user/manager/all/5d77e45fb112c824efae3718
+
+
+if the cliame > capacity {
+    the front will not render the shift;
+}

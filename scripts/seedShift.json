@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Cofee Maker",
+    "description": "Hard worker need",
+    "claimed": 0,
+    "capacity": 5,
+    "location": "124 University Ave",
+    "date": "09-11-2019",
+    "start": 1400,
+    "end": 1700,
+    "team_id": 1
+  }
+]

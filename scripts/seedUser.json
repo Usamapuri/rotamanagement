@@ -1,0 +1,13 @@
+[
+  {
+    "username": "123@qwe.com",
+    "firstName": "John",
+    "password": "123",
+    "lastName": "Doe",
+    "phoneNumber": "14169990000",
+    "location": "345 toronto st.",
+    "isManager": true,
+    "shifts": ["5d77cdf581ec80221e3d2f48", "5d7931eacd55873070b357e5"],
+    "teamid": "1"
+  }
+]
