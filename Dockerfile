@@ -12,7 +12,7 @@ COPY client/package*.json ./client/
 RUN npm ci --only=production
 
 # Install frontend dependencies
-RUN cd client && npm ci --only=production
+RUN cd client && npm install --only=production
 
 # Copy the rest of the application code
 COPY . .
