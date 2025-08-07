@@ -7,6 +7,11 @@ const authController = {};
 // Restrict access to root page
 authController.home = function(req, res) {
   // res.render("index", { user: req.user });
+  if (req.user) {
+    res.json({ user: req.user });
+  } else {
+    res.status(401).json({ message: "Not authenticated" });
+  }
 };
 
 // Go to registration page
@@ -56,7 +61,7 @@ authController.doLogin = function(req, res) {
     // console.log(res.req.user._id);
     // console.log(res.req.user.teamId);
     // console.log(res.req.user.isManager);
-    res.json(req.user);
+    res.json({ success: true, user: req.user });
   });
 };
 
